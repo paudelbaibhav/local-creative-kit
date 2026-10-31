@@ -1,0 +1,19 @@
+{
+  "output": "work/_selftest/out/selftest.mp4",
+  "width": 1080, "height": 1920, "fps": 30,
+  "grade": {"lut": "work/luts/selftest_talk.cube", "eq": {"contrast": 1.03}, "vignette": true, "grain": 4},
+  "clips": [
+    {"src": "work/_selftest/footage_talk.mp4", "in": 0.72, "out": 2.74, "fit": "cover", "focus": [0.3, 0.5], "zoom": {"from": 1.0, "to": 1.12}},
+    {"src": "work/_selftest/footage_broll.mp4", "in": 0, "duration": 1.2, "fit": "blur", "mute": true, "transition": {"type": "slideleft", "duration": 0.25}, "grade": false},
+    {"src": "work/_selftest/footage_talk.mp4", "in": 3.6, "out": 5.8, "speed": 1.1},
+    {"src": "work/_selftest/ref_photo.jpg", "duration": 1.0, "fit": "contain", "zoom": {"from": 1.05, "to": 1.0}},
+    {"src": "work/_selftest/footage_talk.mp4", "in": 7.22, "out": 10.82, "transition": {"type": "fadewhite", "duration": 0.2}},
+    {"src": "work/_selftest/footage_talk.mp4", "in": 11.6, "out": 13.62}
+  ],
+  "music": {"src": "work/_selftest/music.wav", "volume": 0.35, "duck": true, "fade_out": 1.0},
+  "sfx": [{"src": "work/_selftest/whoosh.wav", "at": 1.8, "volume": 0.5}],
+  "overlays": [{"src": "work/_selftest/badge.png", "start": 0.3, "end": 2.0, "position": "top", "width": 0.5, "fade": 0.15}],
+  "captions": "work/_selftest/captions.ass",
+  "fade_out": 0.4,
+  "loudness": -14
+}

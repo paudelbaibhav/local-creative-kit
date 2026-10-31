@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "kinocut": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "--from",
+        "kinocut",
+        "kino",
+        "--mcp"
+      ],
+      "env": {}
+    }
+  }
+}

@@ -1,0 +1,6 @@
+# Python 3.10 (basic-pitch's ONNX/TF wheels lag behind newer Pythons)
+librosa>=0.10
+basic-pitch>=0.4
+faster-whisper>=1.2
+pretty_midi>=0.2.10
+numpy

@@ -1,0 +1,30 @@
+# video: user media, caches and renders stay local
+video/.venv/
+video/references/*
+video/template/*
+video/footage/*
+video/footage_hq/
+video/assets/**/*.*
+video/work/*
+video/output/*
+video/tools/herk-edit-kit/
+video/tools/video-editor-agent/
+!**/.gitkeep
+
+# music: ACE-Step install, recordings and generated songs stay local
+music/ACE-Step-1.5/
+music/logs/
+music/my-songs/*
+music/stems/
+music/voice-memos/
+music/voice-tools/.venv/
+music/voice-tools/out/
+music/songs/*
+!music/songs/example/
+music/songs/example/*.mp3
+music/songs/example/settings*.json
+
+__pycache__/
+*.pyc
+.env
+.DS_Store
